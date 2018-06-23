@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'AvantGarde_Bold';
+    src: url('../fonts/AvantGarde_Bold.eot');
+    src: url('../fonts/AvantGarde_Bold.eot') format('embedded-opentype'),
+         url('../fonts/AvantGarde_Bold.woff2') format('woff2'),
+         url('../fonts/AvantGarde_Bold.woff') format('woff'),
+         url('../fonts/AvantGarde_Bold.ttf') format('truetype'),
+         url('../fonts/AvantGarde_Bold.svg#AvantGarde_Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'TimesRoman';
+    src: url('../fonts/TimesRoman.eot');
+    src: url('../fonts/TimesRoman.eot') format('embedded-opentype'),
+         url('../fonts/TimesRoman.woff2') format('woff2'),
+         url('../fonts/TimesRoman.woff') format('woff'),
+         url('../fonts/TimesRoman.ttf') format('truetype'),
+         url('../fonts/TimesRoman.svg#TimesRoman') format('svg');
+}
+
+@font-face {
+    font-family: 'avgb'; /*Book*/
+    src: url('../fonts/avgb.eot');
+    src: url('../fonts/avgb.eot') format('embedded-opentype'),
+         url('../fonts/avgb.woff2') format('woff2'),
+         url('../fonts/avgb.woff') format('woff'),
+         url('../fonts/avgb.ttf') format('truetype'),
+         url('../fonts/avgb.svg#avgb') format('svg');
+}
+
+@font-face {
+    font-family: 'avantgd'; /*Demi*/
+    src: url('../fonts/avantgd.eot');
+    src: url('../fonts/avantgd.eot') format('embedded-opentype'),
+         url('../fonts/avantgd.woff2') format('woff2'),
+         url('../fonts/avantgd.woff') format('woff'),
+         url('../fonts/avantgd.ttf') format('truetype'),
+         url('../fonts/avantgd.svg#avantgd') format('svg');
+}
+
+
+
+body{margin: 0; font-family: 'avgb'; font-size: 16px;}
+*{font-family: 'avgb';}
+a{color: #000000; text-decoration: none;}
+a:hover{text-decoration: underline;}
+.row{width: 100%; float: left;}
+.clear{clear:both;}
+
+.wrapper{width: 1270px; margin: 0 auto;}
+
+.btn{font-size: 14px; font-weight: 600; background: #1a1b55; display: block; width: 170px; height: 46px; line-height: 46px; color: #FFF; text-decoration: none; border: 1px solid transparent; text-align: center; transition: all 0.3s;}
+.btn:hover{background: #333; border-color: #b3b3b3; text-decoration: none;}
+
+/*==============================*/
+.main-banner{background: url(../images/banner.jpg) no-repeat center; background-size: cover; height: 768px; position: relative;}
+.banner-content{position: absolute; width: 100%; text-align: center; top: 50%; transform: translateY(-62%); color: #FFF;}
+.banner-content img{vertical-align: middle; margin-bottom: 20px;}
+.banner-content h2{font-family: 'AvantGarde_Bold'; font-size: 40px; margin: 0 0 20px 0}
+.banner-content p{font-family: 'TimesRoman'; font-size: 44px; letter-spacing: -1px; line-height: 1.0; margin: 0;}
+
+.intro-section{text-align: center;}
+.intro-content{padding: 120px 100px; font-size: 20px;}
+.intro-content h3{font-family: 'AvantGarde_Bold'; font-size: 26px; margin: 0 0 25px 0; font-weight: bold;}
+.intro-content hr{width: 150px; margin: 50px auto 50px auto;}
+
+.mandate-section{background: #f7f7f7; padding: 70px 0; text-align: center;}
+.mandate-section ul{margin: 0; padding: 0; list-style: none;}
+.mandate-section li{width: 20%; display: inline-block; margin: 30px 5%;}
+.mandate-section img{vertical-align: middle; margin-bottom: 20px;}
+.mandate-section p{margin: 0 0 25px 0; font-size: 18px;}
+.mandate-section li p{font-family: 'avantgd'; line-height: 1.2;}
+.mandate-section h2{font-family: 'AvantGarde_Bold'; font-size: 26px; margin: 0 0 25px 0; font-weight: bold;}
+
+.team-section{padding: 70px 0; text-align: center;}
+.team-section ul{margin: 0; padding: 0; list-style: none;}
+.team-section li{width: 30%; display: inline-block; margin: 30px 1%;}
+.team-section img{vertical-align: middle; margin-bottom: 20px; width: 100%;}
+.team-section p{margin: 0 0 5px 0; font-size: 20px; font-family: 'avgb'; font-size: 22px;}
+.team-section h5{font-family: 'AvantGarde_Bold'; font-size: 15px; margin: 0; font-weight: bold; text-transform: uppercase;}
+.team-section h2{font-family: 'AvantGarde_Bold'; font-size: 26px; margin: 0 0 25px 0; font-weight: bold;}
+
+.findout-section{padding: 90px 0; text-align: center; background: url(../images/findout-bg.jpg) no-repeat center; background-size: cover; min-height: 220px;}
+.findout-section h3{font-family: 'AvantGarde_Bold'; font-size: 18px; margin: 0 0 5px 0; font-weight: bold;}
+.findout-section h2{font-family: 'TimesRoman'; font-size: 48px; margin: 0 0 20px 0; font-weight: normal; letter-spacing: -1px;}
+.findout-section .link-btn{display: inline-block; width: 200px; height: 46px; line-height: 46px; background: #000; color: #FFF; font-family: 'AvantGarde_Bold'; font-size: 18px; text-decoration: none;}
+
+.partners-section{padding: 70px 0; text-align: center;}
+.partners-section ul{margin: 0; padding: 0; list-style: none;}
+.partners-section li{width: 45%; display: inline-block; margin: 30px 2%;}
+.partners-section img{vertical-align: middle; margin-bottom: 20px; width: 100%;}
+.partners-section h2{font-family: 'AvantGarde_Bold'; font-size: 26px; margin: 0 0 25px 0; font-weight: bold;}
+
+footer{background: #060606;}
+.footer-top{padding: 50px 0; color: #FFF; font-size: 14px;}
+.footer-top h3{font-family: 'AvantGarde_Bold'; font-size: 15px; margin: 0 0 25px 0; font-weight: bold;}
+.footer-top p{margin: 0 0 20px 0;}
+.footer-col1{float: left; width: 350px;}
+.footer-col2{float: left; width: 360px; margin-left: 50px;}
+.footer-col3{float: right; width: 360px;}
+.footer-top input{width: 100%; box-sizing: border-box; border: none; padding: 10px; margin-bottom: 10px;}
+.footer-top textarea{width: 100%; box-sizing: border-box; border: none; padding: 10px; margin-bottom: 10px; height: 200px; resize: none;}
+
+.footer-bottom{background: #000000; padding: 15px 0; text-align: center; color: #FFF; font-size: 12px;}
+
+.tweet-section{}
+.tweet-section .fa-twitter{border: 1px solid #FFF; width: 50px; height: 50px; text-align: center; line-height: 50px; border-radius: 50%; display: block; position: absolute; left: 0; font-size: 22px;}
+.tweet-row{padding: 0 0 0 70px; position: relative; text-transform: uppercase; font-weight: bold; font-size: 13px; line-height: 1.6; margin-bottom: 25px;}
+.tweet-row p{margin: 0 0 25px 0;}
+.tweet-row p a{color: #c5cccc; text-decoration: underline;}
+.tweet-meta{padding-left: 25px;}
+.tweet-meta a{color: #FFF;}
+.tweet-meta a{display: inline-block; min-width: 70px; margin-right: 10px;}
